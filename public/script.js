@@ -209,12 +209,13 @@ requestAnimationFrame(gameloop);
 
 function projectReq(gravitas, spaceshooter, typemaster) {
     if (gravitas) {
-        window.location.href = '/Gravitas';
+        window.location.href = '/gravitas';
     }
     else if (spaceshooter) {
-        window.location.href = '/Spaceshooter';
+        window.location.href = '/spaceshooter';
     }
     else if (typemaster) {
-        window.location.href = '/Typemaster';
+        window.location.href = '/typemaster';
     }
+
 }
